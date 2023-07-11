@@ -38,7 +38,7 @@ function rot13(encodedStr) {
 	for(let word of strArr) {
 		decodedArr.push(decodeWord(word));
 	}
-  return decodedArr; //return decodedArr
+  return decodedArr.join(' '); //return decodedArr
 }
 
 function decodeWord(word) {
